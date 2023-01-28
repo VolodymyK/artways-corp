@@ -18,6 +18,10 @@
   --primary-letter-spacing: 0.02em;
   --secondary-font-weight: 800;
 }
+header{
+  position: sticky;
+  z-index: 3;
+}
 
 body {
   font-family: var(--primary-font);
