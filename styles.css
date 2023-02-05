@@ -21,13 +21,13 @@ html {
 :root {
   --color-primary: #434455;
   --second-color: #2e2f42;
-  --logo-button-color: #4d5ae5;
+  --logo-button-color: #2D8EFF;
   --main-background-color: #e5e5e5;
   --secondary-background-color: #f4f4fd;
   --contact-description-color: #434455;
   --white-color: #ffffff;
   --footer-color: #e7e9fc;
-  --hover-button: #404bbf;
+  --hover-button: #0075FF;
   --modal-window: #fcfcfc;
   --modal-form-label: #8e8f99;
   --user-policy: #757575;
