@@ -21,13 +21,13 @@ html {
 :root {
   --color-primary: #434455;
   --second-color: #2e2f42;
-  --logo-button-color: #2D8EFF;
+  --logo-button-color: #2d8eff;
   --main-background-color: #e5e5e5;
   --secondary-background-color: #f4f4fd;
   --contact-description-color: #434455;
   --white-color: #ffffff;
   --footer-color: #e7e9fc;
-  --hover-button: #0075FF;
+  --hover-button: #0075ff;
   --modal-window: #fcfcfc;
   --modal-form-label: #8e8f99;
   --user-policy: #757575;
@@ -51,7 +51,7 @@ header {
 }
 
 .active {
-  color: #404bbf;
+  color: #0075ff;
   position: relative;
   color: #4d5ae5;
 }
@@ -182,8 +182,8 @@ body {
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button_os:hover {
-  background: #404bbf;
-  border: #404bbf;
+  background: #0075ff;
+  border: #0075ff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .section1 {
@@ -484,7 +484,7 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-item-link:hover {
-  background-color: #404bbf;
+  background-color: #0075ff;
 }
 .foot-soc {
   margin-left: 120px;
@@ -732,7 +732,7 @@ input:focus {
 }
 .modal-form-btn-submit:hover,
 .modal-form-btn-submit:focus {
-  background-color: #404bbf;
+  background-color: #0075ff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .policy1 {
@@ -777,7 +777,7 @@ input:focus {
 }
 
 .modal-form-check:checked + .modal-form-check-description::before {
-  background-color: #404bbf;
+  background-color: #0075ff;
   background-image: url(./img/checkbox.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -867,7 +867,7 @@ checkbox .modal-form-check-description {
 
 .subscribe-footer-btn:hover,
 .subscribe-footer-btn:focus {
-  background-color: #404bbf;
+  background-color: #0075ff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .subscribe-footer-media-icon {
