@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArtWays-Comp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- --------------------------HEADETR------------------------- -->
+  <header class="header">
+    <div class="container container-header">
+      <a href="./index.html" class="logo-web link"
+        >ATRWAYS<span class="logo-studio">.com</span></a
+      >
+
+      <nav class="site-nav">
+        <ul class="site-nav list">
+          <li class="site-nav-item">
+            <a href="./index.html" class="link ">About Us</a>
+          </li>
+          <li class="site-nav-item">
+            <a href="gallery.html" class="link current-page">Gallery</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="site-address list">
+        <li class="site-adress-item">
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="site-adress-item">
+          <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+        </li>
+      </ul>
+      <button
+        type="button"
+        class="mobile-menu-burger js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="icon-burger" width="32px" height="22px">
+          <use href="./images/symbol-defs.svg#icon-burger"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="mobile-menu js-menu-container" id="mobile-menu">
+      <div class="container mobile-menu-container">
+        <div class="mobile-menu-top">
+          <button type="button" class="mobile-menu-cross js-close-menu">
+            <svg class="mobile-menu-icon-cross" width="8px" height="8px">
+              <use href="./images/symbol-defs.svg#icon-cross"></use>
+            </svg>
+          </button>
+          <ul class="mobile-site-nav">
+            <li class="mobile-site-nav-item list">
+              <a class="link" href="./index.html">About Us</a>
+            </li>
+            <li class="mobile-site-nav-item list">
+              <a class="link" href="gallery.html">Gallery</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mobile-menu-bottom">
+          <ul class="mobile-site-address list">
+            <li class="mobile-site-tel list">
+              <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+            </li>
+
+            <li class="mobile-site-mail list">
+              <a href="mailto:info@devstudio.com" class="link"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+
+          <ul class="mobile-menu-media-list">
+            <li class="mobile-menu-media-item list">
+              <a class="mobile-menu-media-link link" href="">
+                <svg class="mobile-menu-icon" width="24px" height="24px">
+                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="mobile-menu-media-item list">
+              <a class="mobile-menu-media-link link" href="">
+                <svg class="mobile-menu-icon" width="24px" height="24px">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="mobile-menu-media-item list">
+              <a class="mobile-menu-media-link link" href="">
+                <svg class="mobile-menu-icon" width="24px" height="24px">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="mobile-menu-media-item list">
+              <a class="mobile-menu-media-link link" href="">
+                <svg class="mobile-menu-icon" width="24px" height="24px">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+    <!-- ------------------------------------------------/HEADER------------- -->
+<main>
+    <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #ffffff;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .swiper-setup{
+        width: auto;
+        height: auto;
+        
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper swiper-setup">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./img/truck1.0.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./img/truck2.0.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./img/truck3.0.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./img/truck4.0.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./img/truck5.0.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./img/truck6.0.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./img/truck7.0.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./img/truck8.0.jpg" alt=""></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</main>
+    <!-- ------------------------------FOOTER------------------------- -->
+    <footer class="footer">
+      <div class="container container-footer">
+        <div class="footer-tablet-first-row footer-desktop-first-part">
+          <div class="footer-promotion">
+            <a href="./index.html" class="logo-web link"
+              >ATRWAYS<span class="logo-studio">.com</span></a
+            >
+            <p class="footer-text">
+              We are always working for you. Deliver fast and make you happy
+              that's what we living for!
+            </p>
+          </div>
+
+          <div class="footer-social-media">
+            <p class="footer-title-link">Social media</p>
+            <ul class="list-social-media list">
+              <li>
+                <a href="" class="link-social-media">
+                  <svg width="24px" height="24px" class="icon-social-media">
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="" class="link-social-media">
+                  <svg width="24px" height="24px" class="icon-social-media">
+                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="" class="link-social-media">
+                  <svg width="24px" height="24px" class="icon-social-media">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="" class="link-social-media">
+                  <svg width="24px" height="24px" class="icon-social-media">
+                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <form class="subscribe">
+          <label for="subscribe-email" class="subscribe-label">
+            <span class="subscribe-email-title">Have a question?</span>
+          </label>
+          <span class="subscribe-email">
+            <input
+              type="email"
+              id="subscribe-email"
+              name="email"
+              class="subscribe-input"
+              required
+              placeholder="Leave your e-mail here"
+            />
+            <button type="submit" class="subscribe-button">
+              <span>Send</span>
+              <svg width="24px" height="20px" class="subscribe-button-icon">
+                <use
+                  href="./images/symbol-defs.svg#icon-button-subscribe"
+                ></use>
+              </svg>
+            </button>
+          </span>
+        </form>
+      </div>
+    </footer>
+    <!-- -----------------------------/FOOTER------------------- -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="./js/slide.js"></script>
+  </body>
+</html>
