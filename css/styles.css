@@ -476,7 +476,7 @@ header .link.current-page {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-mobile.webp);
+      url(../img/Dedicated-Truck-Driving-Mobile.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -503,7 +503,7 @@ header .link.current-page {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-tablet.webp);
+      url(../img/Dedicated-Truck-Driving.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
